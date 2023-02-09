@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&family=Indie+Flower&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Indie Flower', cursive;
+    --fonte3: 'Comic Neue', cursive;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+body {
+    background-color: lightgray;
+    background-image: url(../imagens/wallpaper001.jpg);
+}
+
+header {
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    font-family: var(--fonte2);
+    font-variant: small-caps;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 5vw;
+    margin: 10px;
+    text-shadow: 1px 1px 4px white;
+}
+
+header > p {
+    font-size: 2vw;
+}
+div {
+    max-width: 90vw;
+    margin: auto;
+    padding: 10px;
+}
+
+section.texto {
+    
+box-shadow: 3px 3px 8px black;
+border-radius: 9px;
+
+    
+}
+
+section.texto > p {
+    background-color: rgba(0, 0, 0, 0.141);
+    display: inline-block;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: center;
+    font-family: var(--fonte1);
+}
+
+section#txt1 {
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+}
+
+h1 {
+    padding: 10px 0px 3px 20px;
+    font-family: var(--fonte3);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.355);
+
+}
+
+
+section#txt2 {
+    background: rgb(253,187,45);
+    background: radial-gradient(circle, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+
+}
+
+section.topico {
+    background-image: url(../imagens/wallpaper003.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-attachment: fixed;
+    border-radius: 9px;
+    box-shadow: 3px 3px 8px black;
+    
+}
+
+section.topico > h1 {
+    font-size: 2em;
+}
+
+
+section.atividade {
+    text-align: center;
+}
+
+
+h2 {
+    
+    padding: 10px 15px 3px 20px;
+    font-family: var(--fonte3);
+    background-color: rgba(255, 255, 255, 0.437);
+}
+
+img {
+    
+    height: 70%;
+    width: 70%;
+    border-radius: 4px;
+    box-shadow: 3px 3px 8px black;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
